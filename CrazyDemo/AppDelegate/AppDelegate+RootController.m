@@ -11,7 +11,7 @@
 @implementation AppDelegate (RootController)
 
 - (void)sayHi {
-    NSLog(@"RooController sayHi");
+    NSLog(@"RooController sayHi:%d", THE_MEANING_OF_UNIVERSE);
 }
 
 - (void)setAppWindow {

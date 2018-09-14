@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2B5593214BC030007279A1 /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B5592214BC030007279A1 /* AppDelegate+AppService.m */; };
 		1E93D87F214BAC2F009539A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E93D87E214BAC2F009539A5 /* AppDelegate.m */; };
 		1E93D887214BAC30009539A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E93D886214BAC30009539A5 /* Assets.xcassets */; };
 		1E93D88A214BAC30009539A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E93D888214BAC30009539A5 /* LaunchScreen.storyboard */; };
@@ -17,6 +18,9 @@
 
 /* Begin PBXFileReference section */
 		02400C8AF80A8F65AE55DDAE /* libPods-CrazyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrazyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2B5591214BC030007279A1 /* AppDelegate+AppService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		1E2B5592214BC030007279A1 /* AppDelegate+AppService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
+		1E2B559D214BDCDB007279A1 /* CrazyDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyDemo.pch; sourceTree = "<group>"; };
 		1E93D87A214BAC2F009539A5 /* CrazyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E93D87D214BAC2F009539A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E93D87E214BAC2F009539A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +46,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E2B5594214BC182007279A1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1E93D87D214BAC2F009539A5 /* AppDelegate.h */,
+				1E93D87E214BAC2F009539A5 /* AppDelegate.m */,
+				1E93D893214BB1F2009539A5 /* AppDelegate+RootController.h */,
+				1E93D894214BB1F2009539A5 /* AppDelegate+RootController.m */,
+				1E2B5591214BC030007279A1 /* AppDelegate+AppService.h */,
+				1E2B5592214BC030007279A1 /* AppDelegate+AppService.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1E2B5595214BC19A007279A1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1E2B5596214BC1B6007279A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1E2B5597214BC1C2007279A1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1E2B5598214BC1D2007279A1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1E2B5599214BC1E6007279A1 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1E2B559A214BC1F6007279A1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1E2B559B214BC20A007279A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E93D886214BAC30009539A5 /* Assets.xcassets */,
+				1E93D888214BAC30009539A5 /* LaunchScreen.storyboard */,
+				1E93D88B214BAC30009539A5 /* Info.plist */,
+				1E93D88C214BAC31009539A5 /* main.m */,
+				1E2B559D214BDCDB007279A1 /* CrazyDemo.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E2B559C214BC240007279A1 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
 		1E93D871214BAC2F009539A5 = {
 			isa = PBXGroup;
 			children = (
@@ -63,14 +141,15 @@
 		1E93D87C214BAC2F009539A5 /* CrazyDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1E93D87D214BAC2F009539A5 /* AppDelegate.h */,
-				1E93D87E214BAC2F009539A5 /* AppDelegate.m */,
-				1E93D893214BB1F2009539A5 /* AppDelegate+RootController.h */,
-				1E93D894214BB1F2009539A5 /* AppDelegate+RootController.m */,
-				1E93D886214BAC30009539A5 /* Assets.xcassets */,
-				1E93D888214BAC30009539A5 /* LaunchScreen.storyboard */,
-				1E93D88B214BAC30009539A5 /* Info.plist */,
-				1E93D88C214BAC31009539A5 /* main.m */,
+				1E2B5594214BC182007279A1 /* AppDelegate */,
+				1E2B5595214BC19A007279A1 /* Modules */,
+				1E2B5598214BC1D2007279A1 /* Manager */,
+				1E2B5596214BC1B6007279A1 /* Utils */,
+				1E2B5597214BC1C2007279A1 /* Base */,
+				1E2B559C214BC240007279A1 /* Define */,
+				1E2B559A214BC1F6007279A1 /* Resource */,
+				1E2B559B214BC20A007279A1 /* Supporting Files */,
+				1E2B5599214BC1E6007279A1 /* ThirdParty */,
 			);
 			path = CrazyDemo;
 			sourceTree = "<group>";
@@ -202,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2B5593214BC030007279A1 /* AppDelegate+AppService.m in Sources */,
 				1E93D88D214BAC31009539A5 /* main.m in Sources */,
 				1E93D87F214BAC2F009539A5 /* AppDelegate.m in Sources */,
 				1E93D895214BB1F2009539A5 /* AppDelegate+RootController.m in Sources */,
@@ -263,6 +343,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDemo/Supporting Files/CrazyDemo.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -319,6 +401,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDemo/Supporting Files/CrazyDemo.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -338,7 +422,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CrazyDemo/Info.plist;
+				DEVELOPMENT_TEAM = 42526LMKPV;
+				INFOPLIST_FILE = "$(SRCROOT)/CrazyDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,7 +440,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CrazyDemo/Info.plist;
+				DEVELOPMENT_TEAM = 42526LMKPV;
+				INFOPLIST_FILE = "$(SRCROOT)/CrazyDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
